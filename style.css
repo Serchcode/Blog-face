@@ -1,0 +1,84 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Oswald', sans-serif;
+}
+header{
+background-color: #7B1FA2;
+height: 8vh;
+text-align: center;
+}
+header span{
+color: white;
+font-size: 2rem
+}
+.banner_uno{
+background-color: #9C27B0;
+background-size: cover;
+background-position: center;
+background-image: url("http://nerdist.com/wp-content/uploads/2016/04/deadpool-2-featured-image.jpg");
+height: 45vh;
+}
+.banner_dos{
+height: 50vh; 
+position: relative;
+}
+section .perfil{
+background-color: white;
+position: absolute;
+width: 15%;
+top: -30%;
+left: 10%;
+display: inline-block;
+border-radius: 3%;
+box-shadow: 2px 2px 10px #888888;
+}
+section article div img{
+width: 100%;
+border-radius: 3%;
+}
+.info {
+height: 40vh;
+background-color: #7C4DFF;
+display: inline-block;
+width: 40%;
+top: -20%;
+right: 15%;
+position: absolute;
+text-align: center;
+padding: 2%;
+color: white;
+transition: background-color 3s;
+}
+
+.info:hover{
+	background-color: blue;
+}
+
+.info p{
+padding: 2%;
+}
+.banner_dos .redes{
+display: inline-block;
+margin: 10%; 
+}
+.banner_dos .redes div ul{
+list-style: none;
+}
+
+article.redes button{
+	font-size: 2em;
+	padding: 2% 4%;
+	background: transparent;
+	border-radius: 5px;
+	border: none;
+	border: 1px solid blue;
+	color: blue;
+	transition: all .3s;
+
+}
+
+article.redes button:hover{
+	background-color: blue;
+	color: white;
+}

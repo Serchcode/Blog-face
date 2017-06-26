@@ -1,0 +1,156 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+}
+body{
+	position: relative;
+	height: 100vh;
+}
+a{
+	color: black;
+}
+
+header nav ul{
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+	padding-top: 2%;
+}
+
+header nav ul li{
+	margin-right: 5%;
+	display: flex;
+	align-items: center;
+}
+header nav ul .image{
+	width: 8vh;
+	height: 4vh; 
+}
+
+header nav ul .image img{
+	max-width: 100%;
+	border-radius: 60	%;
+	height: auto;
+	display: block;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+header nav ul .bell{
+	height: 26px;
+	width: 26px;
+	background: black;
+	border-radius: 50%;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+}
+
+main div{
+	width: 70%;
+	margin:0 auto;
+}
+main div div.google-logo{
+	height: 101px;
+	width: 300px;
+	margin-top: 160px;
+	background-size: cover;
+	background-position: center;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2000px-Google_2015_logo.svg.png');
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+main div div.google-logo div{
+	color: #4285f4;
+	position: absolute;
+	bottom: 10%;
+	font-size: 15px;
+	left: 80%;
+}
+
+main div div.input{
+	width: 	65%;
+	height: 7vh;
+	border: 1px solid #e8e6da;
+	border-radius: 2px;
+	margin:10% auto;
+	box-shadow: 0.1vh 0.1vh #c7c7c7;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1%;
+	box-sizing: border-box;
+}
+
+
+main div div.input input{
+	width: 70%;
+	border: none;
+	font-size: 18px;
+}
+
+main div div.input input{
+	outline: none;
+}
+
+main div div.buttons{
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+}
+
+main div div.buttons button{
+	width: 40%;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	box-sizing: border-box;
+	padding: 2% 2%;
+}
+
+
+footer{
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	background-color: #f2f2f2;
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding:0 5%;
+	align-items: center;
+
+}
+
+footer div{
+	width: 25%;
+	height: 30px;
+	font-size: 12px;
+}
+
+footer div ul{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	padding-top: 2%;
+}
+
+footer div ul li{
+	margin-right: 5%;
+	display: flex;
+	align-items: center;
+}
